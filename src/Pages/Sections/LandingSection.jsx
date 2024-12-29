@@ -1,4 +1,4 @@
-import { Versace, Zara, Gucci, Prada, Calvin } from '../../assets/Images';
+import { BgStar, Versace, Zara, Gucci, Prada, Calvin } from '../../assets/Images';
 
 
 function LandingPage(){
@@ -14,7 +14,11 @@ function LandingPage(){
                         <h1 className="text-[32px] sm:mx-auto lg:text-[64px] font-bold leading-[68px] lg:leading-[64px] select-none">
                             FIND CLOTHES THAT MATCHES YOUR STYLE
                         </h1>
-                        <p className="mt-4 text-[14px] lg:text-[16px] w-full lg:w-[545px] leading-[20px] lg:leading-[22px] opacity-60 select-none">
+
+                        <img src={BgStar} alt="" className='ml-[1500px] mt-[-150px] mb-[70px]'/>
+                        <img src={BgStar} alt="" className='w-[56px] h-[56px] ml-[900px] mt-[150px] mb-[-40px]'/>
+
+                        <p className="mt-[-140px] text-[14px] lg:text-[16px] w-full lg:w-[545px] leading-[20px] lg:leading-[22px] opacity-60 select-none">
                             Browse through our diverse range of meticulously crafted garments, designed to bring out your 
                             individuality and cater to your sense of style.
                         </p>
@@ -32,7 +36,7 @@ function LandingPage(){
                 </div>
 
                 {/*----------------------------- Footer Logos ---------------------------*/}
-                <div className="lg:w-screen h-[120px] mx-[-150px] my-[470px] lg:my-auto bg-black flex lg:flex flex-wrap lg:flex-nowrap">
+                <div className="lg:w-screen h-[120px] mx-[-150px] my-[450px] lg:my-auto bg-black flex lg:flex flex-wrap lg:flex-nowrap">
                     <div className='mx-[170px] flex justify-start space-x-[200px] items-center flex-wrap lg:flex-nowrap'>
                         <img src={Versace} alt="Versace logo" className="w-[167px] h-[33px] mb-4 lg:mb-0" />
                         <img src={Zara} alt="Zara logo" className="w-[91px] h-[38px] mb-4 lg:mb-0" />

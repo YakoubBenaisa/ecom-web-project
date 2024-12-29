@@ -7,6 +7,9 @@ export const Gucci = require('./gucci.png');
 export const Prada = require('./prada.png');
 export const Calvin = require('./Calvin.png');
 
+export const BgStar = require('./Vector.png');
+
+
 // New Arrivals
 export const BShirt = require('./BlackShirt.png');
 export const Jeans = require('./Jeans.png');
@@ -37,6 +40,7 @@ export const ApplePay = require('./applepay.png');
 
 // Export all as a default object if needed
 const Images = {
+    BgStar,
     Versace,
     Zara,
     Gucci,
