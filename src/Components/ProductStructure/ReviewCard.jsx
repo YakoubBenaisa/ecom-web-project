@@ -1,5 +1,5 @@
-import Star from '../assets/Star 5.png';
-import ConfIcon from '../assets/Review.svg';
+import { Star} from '../../assets/Images'
+import Vicon from '../../assets/icons/Review.svg';
 
 function ReviewCard({name, comment}){
 
@@ -17,8 +17,8 @@ function ReviewCard({name, comment}){
                     ))}
                 </div>
                 <div className='flex'>
-                    <span className='text-[20px] font-semi-bold ml-1 mr-2'>{name}</span>
-                    <img src={ConfIcon} />
+                    <span className='text-[20px] font-semi-bold ml-1 mr-1'>{name}</span>
+                    <img src={Vicon} className='w-[24px] h-[24px] mt-1' />
                 </div>
                 <p className='mt-2 text-[rgba(0,0,0,0.6)]'>
                     {comment}

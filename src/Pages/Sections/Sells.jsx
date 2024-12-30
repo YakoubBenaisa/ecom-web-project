@@ -1,6 +1,6 @@
 import { BShirt, Jeans, Chemise, OrShirt, Gchemise, Orange, Short, BlackJeans }
     from '../../assets/Images';
-import Cart from '../../Components/Cart';
+import Cart from '../../Components/ProductStructure/Cart';
 
 function Sellings(){
 

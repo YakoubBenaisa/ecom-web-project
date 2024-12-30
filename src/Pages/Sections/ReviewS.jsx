@@ -1,4 +1,4 @@
-import ReviewCard from '../../Components/ReviewCard';
+import ReviewCard from '../../Components/ProductStructure/ReviewCard';
 import { useState } from 'react';
 
 function Reviews(){

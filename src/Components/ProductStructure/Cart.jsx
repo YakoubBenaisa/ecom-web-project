@@ -1,6 +1,5 @@
 import React from 'react';
-import Star from '../assets/Star 5.png';
-
+import {Star} from '../../assets/Images';
 const Cart = ({ src, title, price, wasPrice }) => {
   // Calculate discount percentage if wasPrice exists
   const discountPercentage = wasPrice ? Math.round(((wasPrice - price) / wasPrice) * 100) : null;

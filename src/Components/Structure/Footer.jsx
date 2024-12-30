@@ -1,5 +1,5 @@
 import Newsletter from "./NewsLetter";
-import { Visa, MasterCard, PayPal, GooglePay, ApplePay } from "../assets/Images";
+import { Visa, MasterCard, PayPal, GooglePay, ApplePay } from "../../assets/Images";
 import { FaLinkedin, FaFacebook, FaInstagram, FaGithub } from 'react-icons/fa';
 
 function Footer() {

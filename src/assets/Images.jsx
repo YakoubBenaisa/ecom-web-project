@@ -1,39 +1,41 @@
 // src/assets/Images.js
 
 // Brand logos
-export const Versace = require('./versace.png');
-export const Zara = require('./zara.png');
-export const Gucci = require('./gucci.png');
-export const Prada = require('./prada.png');
-export const Calvin = require('./Calvin.png');
+export const Versace = require('./FooterLogos/versace.png');
+export const Zara = require('./FooterLogos/zara.png');
+export const Gucci = require('./FooterLogos/gucci.png');
+export const Prada = require('./FooterLogos/prada.png');
+export const Calvin = require('./FooterLogos/Calvin.png');
 
-export const BgStar = require('./Vector.png');
+export const BgStar = require('./Background/Vector.png');
+export const Star = require('./icons/Star 5.png');
+export const bg = require('./Background/man.png');
 
 
 // New Arrivals
-export const BShirt = require('./BlackShirt.png');
-export const Jeans = require('./Jeans.png');
-export const Chemise = require('./Chemise.png');
-export const OrShirt = require('./Orange.png');
+export const BShirt = require('./Shirts/BlackShirt.png');
+export const Jeans = require('./Jeans/Jeans.png');
+export const Chemise = require('./Shirts/Chemise.png');
+export const OrShirt = require('./Shirts/Orange.png');
 
 // Top Selling
-export const Gchemise = require('./GreenChemise.png');
-export const Orange = require('./OrShirt.png');
-export const Short = require('./Short.png');
-export const BlackJeans = require('./BlackJeans.png');
+export const Gchemise = require('./Shirts/GreenChemise.png');
+export const Orange = require('./Shirts/OrShirt.png');
+export const Short = require('./Jeans/Short.png');
+export const BlackJeans = require('./Jeans/BlackJeans.png');
 
 
-export const Casual = require('./casual.png');
-export const Formal = require('./formal.png');
-export const Gym = require('./gym.png');
-export const Party = require('./party.png');
+export const Casual = require('./Styles/casual.png');
+export const Formal = require('./Styles/formal.png');
+export const Gym = require('./Styles/gym.png');
+export const Party = require('./Styles/party.png');
 
 
-export const Visa = require('./Visa.png');
-export const PayPal = require('./paypal.png');
-export const MasterCard = require('./MasterCard.png');
-export const GooglePay = require('./googlePay.png');
-export const ApplePay = require('./applepay.png');
+export const Visa = require('./Payment/Visa.png');
+export const PayPal = require('./Payment/paypal.png');
+export const MasterCard = require('./Payment/MasterCard.png');
+export const GooglePay = require('./Payment/googlePay.png');
+export const ApplePay = require('./Payment/applepay.png');
 
 
 
@@ -62,7 +64,9 @@ const Images = {
     PayPal,
     MasterCard,
     GooglePay,
-    ApplePay
+    ApplePay,
+    Star,
+    bg
 };
 
 export default Images;

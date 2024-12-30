@@ -6,7 +6,7 @@ function LandingPage(){
     return(
         <>
             {/*----------------------------- Landing Page  ---------------------------*/}
-            <div className="w-screen h-[120vh] lg:h-[calc(100vh-100px)] bg-[#F2F0F1] bg-no-repeat bg-[url('assets/man.png')] lg:bg-[length:90%_auto] bg-right bg-[115%_100%] lg:bg-right-top lg:px-[150px] lg:py-[50px] block">
+            <div className="w-screen h-[120vh] lg:h-[calc(100vh-100px)] bg-[#F2F0F1] bg-no-repeat bg-[url('./assets/Background/man.png')] lg:bg-[length:90%_auto] bg-right bg-[115%_100%] lg:bg-right-top lg:px-[150px] lg:py-[50px] block">
                 <div className="ml-[-30px] flex flex-col lg:flex-row items-center justify-between">
                         
                     {/*----------------------------- Text Section  ---------------------------*/}

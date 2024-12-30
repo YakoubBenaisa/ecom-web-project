@@ -1,5 +1,4 @@
-import EmailIcon from '../assets/Email.svg';
-
+import Econ from "../../assets/icons/Email.svg";
 function Newsletter() {
     return (
         <div className="flex justify-center px-4 py-6 mt-[-100px]">
@@ -11,7 +10,7 @@ function Newsletter() {
                 <div className='flex flex-col gap-4'>
                     {/*---------------------------- Email input  ----------------------------------------*/}
                     <div className="flex items-center bg-[#fefefe] w-[350px] h-[48px] rounded-full px-4">
-                        <img src={EmailIcon} alt="Email Icon" className="w-6 h-6 mr-3" />
+                        <img src={Econ} alt="Email Icon" className="w-6 h-6 mr-3" />
                         <input
                             type="email"
                             className="bg-transparent flex-grow outline-none placeholder-gray-400 text-sm"
