@@ -38,7 +38,7 @@ const DropdownMenu = ({ label, items }) => {
         <div
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
-            className="relative px-2"
+            className="relative mb-2 px-2"
     
         >
             <a
@@ -53,12 +53,12 @@ const DropdownMenu = ({ label, items }) => {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 p-4">
                         {items.map((item, index) => (
                             <div key={index}>
-                                <h4 className="font-semibold text-black py-[25px]">{item.name}</h4>
-                                <ul className="text-gray-600 text-sm">
+                                <h4 className="font-semibold text-black py-[25px] cursor-default">{item.name}</h4>
+                                <ul className="text-gray-600 text-sm ">
                                     {item.subcategories.map((subcategory, subIndex) => (
                                         <li
                                             key={subIndex}
-                                            className="py-4 hover:text-blue-500 transition-all"
+                                            className="py-4 hover:text-blue-500 transition-all cursor-pointer"
                                         >
                                             {subcategory}
                                         </li>
@@ -96,11 +96,11 @@ function Header() {
     ];
 
     return (
-        <>
+        <div className="">
             <Banner />
 
             {/* Header */}
-            <div className="flex justify-between items-center px-4 lg:mx-[120px] py-3 lg:py-2 relative">
+            <div className="border-b-2 flex justify-between items-center px-4 lg:mx-[120px] py-3 lg:py-2 relative">
                 {/* Block 1: Logo with FaBars Icon */}
                 <div className="flex items-center">
                     <FaBars
@@ -115,7 +115,7 @@ function Header() {
                 {/* Block 2: Dropdowns and Search */}
                 <div className="flex-1 flex justify-center items-center lg:space-x-6">
                     {/* Dropdowns */}
-                    <div className="hidden lg:flex space-x-4">
+                    <div className="hidden lg:flex space-x-4 mr-12">
                         <DropdownMenu label="Shop" items={shopCategories} />
                         <DropdownMenu label="Sales" items={saleItems} />
                         <DropdownMenu label="Arrivals" items={newArrivalsItems} />
@@ -145,7 +145,7 @@ function Header() {
                     <DropdownMenu label="Brands" items={brandsItems} />
                 </div>
             )}
-        </>
+        </div>
     );
 }
 

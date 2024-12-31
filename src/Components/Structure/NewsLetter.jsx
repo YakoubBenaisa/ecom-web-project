@@ -14,7 +14,7 @@ function Newsletter() {
                         <input
                             type="email"
                             className="bg-transparent flex-grow outline-none placeholder-gray-400 text-sm"
-                            placeholder="Enter your email address"
+                            placeholder="youremail@example.com"
                             aria-label="Email Address"
                         />                    
                     </div>
