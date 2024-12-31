@@ -1,6 +1,8 @@
 import ReviewCard from '../../Components/ProductStructure/ReviewCard';
 import { useState } from 'react';
 
+
+// Reviews Section of Landing Page
 function Reviews(){
 
      const [currentIndex, setCurrentIndex] = useState(0);
@@ -8,14 +10,11 @@ function Reviews(){
         // Array of review data customer names and comments
         const reviews = [
             { name: "Sarah A.", Comment: " \"I'm blown away by the quality and style of the clothes\
-                                        I received from Shop.co.From casual wear to elegant dresses, every piece I've bought\
-                                        has exceeded my expectations.\”" },
+                                        I received from Shop.co.From casual wear to elegant dresses.\”" },
             { name: "Alex K." , Comment : "\"Finding clothes that align with my personal style used to be a challenge until I \
-                                        discovered Shop.co. The range of options they offer is truly remarkable, catering to a \
-                                        variety of tastes and occasions.\”"},
+                                        discovered Shop.co.\”"},
             { name: "James L.", Comment : "\"As someone who's always on the lookout for unique fashion pieces, I'm thrilled to \
-                                        have stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point\
-                                        with the latest trends.\”"},
+                                        have stumbled upon Shop.co.\”"},
         ];
        // Handler for left arrow click - moves to previous review
         const handleLeftArrowClick = () => {
