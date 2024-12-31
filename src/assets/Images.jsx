@@ -37,7 +37,7 @@ export const MasterCard = require('./Payment/MasterCard.png');
 export const GooglePay = require('./Payment/googlePay.png');
 export const ApplePay = require('./Payment/applepay.png');
 
-
+export const Browny = require('./Shirts/Brouny.png');
 
 
 // Export all as a default object if needed
@@ -66,7 +66,8 @@ const Images = {
     GooglePay,
     ApplePay,
     Star,
-    bg
+    bg,
+    Browny
 };
 
 export default Images;
