@@ -5,9 +5,9 @@ function App() {
   return (
    <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/product" element={<Product />} />
-        <Route path="/category" element={<Home />} />
+        <Route path="/ecom-web-project/" element={<Home />} />
+        <Route path="/ecom-web-project/product" element={<Product />} />
+        <Route path="/ecom-web-project/category" element={<Home />} />
         
         </Routes>
     </BrowserRouter>
