@@ -6,7 +6,7 @@ const Cart = ({ src, title, price, wasPrice }) => {
   const discountPercentage = wasPrice ? Math.round(((wasPrice - price) / wasPrice) * 100) : null;
 
   return (
-    <Link to="/product">
+    <Link to="/ecom-web-project/product">
       <div className="block cursor-pointer border-2 rounded-lg p-2 duration-300 hover:scale-105">
         <img
           src={src}
