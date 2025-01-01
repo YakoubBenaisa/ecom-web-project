@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/ecom/static/css/main.efafa16f.css",
-    "main.js": "/ecom/static/js/main.aeebd1ef.js",
-    "static/media/man.png": "/ecom/static/media/man.be80bcc143ca874eb88b.png",
-    "static/media/party.png": "/ecom/static/media/party.a1479c18e6fde6796996.png",
-    "static/media/formal.png": "/ecom/static/media/formal.2d53b6d5be1876f694b3.png",
-    "static/media/Brouny.png": "/ecom/static/media/Brouny.a20c0e759879b9dc5d1e.png",
-    "static/media/Chemise.png": "/ecom/static/media/Chemise.fc200dd75c80a47eb1a3.png",
-    "static/media/casual.png": "/ecom/static/media/casual.2f17628e7d1283b8551a.png",
-    "static/media/gym.png": "/ecom/static/media/gym.6570c872b5d8671cc0f7.png",
-    "static/media/GreenChemise.png": "/ecom/static/media/GreenChemise.4ffafddd293d2d3726b4.png",
-    "static/media/OrShirt.png": "/ecom/static/media/OrShirt.db8e0e6596140f828ec7.png",
-    "static/media/Jeans.png": "/ecom/static/media/Jeans.569bbcfcadb595b62220.png",
-    "static/media/Orange.png": "/ecom/static/media/Orange.8fc7f13bd466c4812b18.png",
-    "static/media/Short.png": "/ecom/static/media/Short.aeb7353ce0b136525acd.png",
-    "static/media/BlackJeans.png": "/ecom/static/media/BlackJeans.e7b7012ae39fb2ee4b67.png",
-    "static/media/BlackShirt.png": "/ecom/static/media/BlackShirt.bad463e6df6d16117139.png",
-    "static/media/Review.svg": "/ecom/static/media/Review.495ccf8da2a2e60c3835f216b281fd27.svg",
-    "static/media/Email.svg": "/ecom/static/media/Email.0d225809b1632a913e290111c9ee88d4.svg",
-    "index.html": "/ecom/index.html",
-    "main.efafa16f.css.map": "/ecom/static/css/main.efafa16f.css.map",
-    "main.aeebd1ef.js.map": "/ecom/static/js/main.aeebd1ef.js.map"
+    "main.css": "/ecom-web-project/static/css/main.57bd3da0.css",
+    "main.js": "/ecom-web-project/static/js/main.0d5219ef.js",
+    "static/media/man.png": "/ecom-web-project/static/media/man.be80bcc143ca874eb88b.png",
+    "static/media/party.png": "/ecom-web-project/static/media/party.a1479c18e6fde6796996.png",
+    "static/media/formal.png": "/ecom-web-project/static/media/formal.2d53b6d5be1876f694b3.png",
+    "static/media/Brouny.png": "/ecom-web-project/static/media/Brouny.a20c0e759879b9dc5d1e.png",
+    "static/media/Chemise.png": "/ecom-web-project/static/media/Chemise.fc200dd75c80a47eb1a3.png",
+    "static/media/casual.png": "/ecom-web-project/static/media/casual.2f17628e7d1283b8551a.png",
+    "static/media/gym.png": "/ecom-web-project/static/media/gym.6570c872b5d8671cc0f7.png",
+    "static/media/GreenChemise.png": "/ecom-web-project/static/media/GreenChemise.4ffafddd293d2d3726b4.png",
+    "static/media/OrShirt.png": "/ecom-web-project/static/media/OrShirt.db8e0e6596140f828ec7.png",
+    "static/media/Jeans.png": "/ecom-web-project/static/media/Jeans.569bbcfcadb595b62220.png",
+    "static/media/Orange.png": "/ecom-web-project/static/media/Orange.8fc7f13bd466c4812b18.png",
+    "static/media/Short.png": "/ecom-web-project/static/media/Short.aeb7353ce0b136525acd.png",
+    "static/media/BlackJeans.png": "/ecom-web-project/static/media/BlackJeans.e7b7012ae39fb2ee4b67.png",
+    "static/media/BlackShirt.png": "/ecom-web-project/static/media/BlackShirt.bad463e6df6d16117139.png",
+    "static/media/Review.svg": "/ecom-web-project/static/media/Review.495ccf8da2a2e60c3835f216b281fd27.svg",
+    "static/media/Email.svg": "/ecom-web-project/static/media/Email.0d225809b1632a913e290111c9ee88d4.svg",
+    "index.html": "/ecom-web-project/index.html",
+    "main.57bd3da0.css.map": "/ecom-web-project/static/css/main.57bd3da0.css.map",
+    "main.0d5219ef.js.map": "/ecom-web-project/static/js/main.0d5219ef.js.map"
   },
   "entrypoints": [
-    "static/css/main.efafa16f.css",
-    "static/js/main.aeebd1ef.js"
+    "static/css/main.57bd3da0.css",
+    "static/js/main.0d5219ef.js"
   ]
 }
