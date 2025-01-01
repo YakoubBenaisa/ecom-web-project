@@ -32,7 +32,7 @@ Ensure you have the following installed on your system:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/shopco-homepage.git
+   git clone https://github.com/YakoubBenaisa/ecom-web-project.git
    ```
 
 2. **Navigate to the Project Directory**:
