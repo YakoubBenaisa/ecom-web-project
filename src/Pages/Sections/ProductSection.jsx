@@ -16,7 +16,7 @@ function ProductSection({type, pictures, title, rank, currentPrice, wasPrice, pa
         <div className="mx-[140px] mt-[50px]">
             <div className="links">
                 <div>
-                    <a href="/" className="px-2 hover:underline opacity-60">Home</a>
+                    <a href="/ecom-web-project" className="px-2 hover:underline opacity-60">Home</a>
                     <span> &gt; </span>
                     <a href="/ecom-web-project" className="px-2 hover:underline opacity-60">Shop</a>
                     <span> &gt; </span>
