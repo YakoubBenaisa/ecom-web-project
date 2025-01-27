@@ -1,4 +1,4 @@
-# Shop.co Home Page
+# Shop.co Ecommerce Website
 
 Welcome to the Shop.co Home Page project! This is a simple and elegant e-commerce website built using React and Tailwind CSS and Python Django.
 
