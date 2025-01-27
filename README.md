@@ -1,12 +1,12 @@
 # Shop.co Home Page
 
-Welcome to the Shop.co Home Page project! This is a simple and elegant e-commerce homepage built using React and Tailwind CSS.
+Welcome to the Shop.co Home Page project! This is a simple and elegant e-commerce website built using React and Tailwind CSS and Python Django.
 
 ---
 
 ## Features
 
-- **Modern Design**: Clean and responsive layout (not yet).
+- **Modern Design**: Clean and responsive layout.
 - **Fast and Lightweight**: Built with React and styled using Tailwind CSS for optimal performance.
 
 ---
